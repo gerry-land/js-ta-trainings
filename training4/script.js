@@ -30,6 +30,7 @@ function toHex(num10) {
                 break;
             case 15: {
                 num16 += 'f';
+                // не вистачає 'break' виразу
             }
             default: {
                 num16 += i % 16;

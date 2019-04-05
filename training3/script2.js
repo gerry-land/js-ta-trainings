@@ -9,11 +9,16 @@ function proste(n) {
         break;
       }
     }
+    // тут j = undefined
     if (i == j) {
       prosti += ' ' + i;
     }
   }
   return prosti;
 }
+
+// Не потрібно називати змінні транслітом - 'prosti' => 'primeNumbers'
+
+
 
 console.log(proste(n));

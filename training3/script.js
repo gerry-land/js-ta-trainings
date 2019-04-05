@@ -9,4 +9,7 @@ function simpleNumbers(n) {
   }
 }
 
+// https://learn.javascript.ru/task/list-primes
+// Коли рев`ювиш код з learn js
+
 simpleNumbers(100);
